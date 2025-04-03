@@ -110,7 +110,7 @@ client.on('messageCreate', async (message) => {
       .addFields(
         { name: '#id', value: 'Get player profile and stats by Steam ID or name.' },
         { name: '#bans', value: 'Check a player\'s ban history.' },
-        { name: '#cedaspy', value: 'Displays this message.' }
+        { name: '#cedaspy', value: 'Get information bot.' }
       )
       .setFooter({ text: 'Cedapug Spy Bot - Tracking player data!' })
       .setTimestamp();
